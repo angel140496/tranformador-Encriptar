@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Encriptación | José Angel</title>
+	<meta charset="utf-8">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body class="bg-light">
+<div class="conteiner-fluid m-5 ">
+	<div class="row col-center">
+		<div class="col ">
+			<form class="formulario bg-primary" >
+				<h2 class="text-light text-center">Tranformador</h2>
+				<label class="text-light">Escribe Texto a Codigo</label><br>
+				<div class="input-group mb-3">
+                   <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroup-sizing-default">Texto</span>
+                   </div>
+                   <input type="text" id="texto" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required><br>
+                </div>
+                <button class="btn btn-dark" onclick="textoCodigo()">Transformar</button><br>
+                <label class="text-light font-weight-bold my-2" >Resultado:</label>
+                <label class="text-light mx-2" id="resultado"></label><br>
+                <hr>
+			</form>	
+			<form class="formulario bg-dark" >
+				<label class="text-light form2">Escribe Texto a Codigo</label><br>
+				<div class="input-group mb-3">
+                   <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroup-sizing-default">Codigo</span>
+                   </div>
+                   <input type="text" id="codigo2"class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"><br>
+                </div>
+                <button class="btn btn-primary" onclick="codigoTexto()">Transformar</button><br>
+                <label class="text-light font-weight-bold my-2">Resultado:</label>
+                <label class="text-light mx-2" id="resultado"></label><br>
+                <hr>
+			</form>			
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="js/funciones.js"></script>
+</html>

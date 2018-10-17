@@ -1,0 +1,16 @@
+.formulario
+{
+	width: 300px;
+	height: 220px;
+}
+
+.form2
+{
+	margin-top: 20px;
+}
+
+.col-center+
+{
+    float: none;
+    margin: 0 auto;
+}
